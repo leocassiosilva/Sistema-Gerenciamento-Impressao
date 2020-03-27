@@ -73,7 +73,7 @@ if($_SESSION["logado"] == "sim"){
 									<th class="text-center">#</th>
 									<th>Name</th>
 									<th>Disciplina</th>
-									<th>Turma</th>
+									<th>Curso</th>
 									<th>Turno</th>
 									<th>Quantidade</th>
 									<th>Lado</th>
@@ -86,7 +86,7 @@ if($_SESSION["logado"] == "sim"){
 							<tbody>
 								<tr>
 									<td class="text-center">1</td>
-									<td>Jefferson</td>
+									<td>Testes</td>
 									<td>Banco de Dados</td>
 									<td>ADS</td>
 									<td>Vespertino</td>

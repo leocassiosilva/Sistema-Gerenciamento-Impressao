@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="col-md-12 text-center mb-2">
-                <img src="resources/img/logo.png">
+                <img src="resources/img/printif.png">
             </div>
 
             <div class="row">
