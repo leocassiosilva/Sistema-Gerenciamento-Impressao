@@ -34,10 +34,10 @@ class loginDAO
       $_SESSION["nome"] = $resultado["nome"];
       $_SESSION["email"] = $resultado["email"];
       $_SESSION['id_usuario'] = $resultado["id_usuario"];
-      $_SESSION['logado'] = 'sim';
+      $_SESSION['id_tipo'] = $resultado["id_tipo"];
+      $_SESSION['logado'] = true;
       return $resultado;
     } 
-
   }
 }
 

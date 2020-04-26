@@ -6,13 +6,13 @@
 </head>
 <body>
  <div class="container py-5">
-    <div id="login-alert">
-        <span id="mensagem"></span>
-    </div>
     <div class="row">
         <div class="col-md-12">
             <div class="col-md-12 text-center mb-2">
                 <img src="resources/img/printif.png">
+            </div>
+            <div id="login-alert">
+                <span id="mensagem"></span>
             </div>
 
             <div class="row">
@@ -22,7 +22,7 @@
                             <h3 class="mb-0">Login</h3>
                         </div>
                         <div class="card-body">
-                            <form class="form" role="form"  id="login-form" novalidate="" method="POST">
+                            <form class="form" method="POST">
                                 <div class="form-group">
                                     <label for="email">E-mail</label>
                                     <input type="text" class="form-control form-control-lg rounded-0" name="email" id="email" required="">
@@ -52,5 +52,5 @@
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="resources/js/login.js"> </script>
+<script type="text/javascript" src="resources/js/logar.js"></script>
 </html>

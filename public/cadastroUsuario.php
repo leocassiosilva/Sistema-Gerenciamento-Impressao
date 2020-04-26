@@ -2,7 +2,7 @@
 <head>
   <title>Cadastro de Usuario</title>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <link rel="stylesheet" type="text/css" href="../resources/css/style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="" media="screen" />
 </head>
 <body>
   <div class="container py-5">
@@ -22,7 +22,7 @@
                 <h3 class="mb-0">Cadastro</h3>
               </div>
               <div class="card-body">
-                <form method="POST" action="../control/ControleUsuario.php">
+                <form method="POST">
                   <div class="form-row">
                     <div class="form-group col-md-12">
                      <label for="inputNome">Nome</label>

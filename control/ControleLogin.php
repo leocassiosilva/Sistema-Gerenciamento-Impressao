@@ -33,6 +33,7 @@ $usuario->setSenha($senha);
 
 $resultado = $loginDAO->login($usuario); 
 
+
 /*Serve para verificar se o usuario foi logado ou não.*/
 if(!empty($resultado)){
 	$retorno = array('codigo' => 1, 'mensagem' => 'Logado com sucesso!');
