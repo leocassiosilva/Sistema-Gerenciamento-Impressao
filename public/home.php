@@ -1,15 +1,3 @@
-<?php 
-session_start();
-
-if($_SESSION["logado"] == "sim"){
-	$nome = $_SESSION["nome"];
-	$email = $_SESSION["email"];
-	$id_usuario = $_SESSION["id_usuario"];
-	$id_tipo = $_SESSION["tipo"];
-}else{
-	header("location: ../index.php"); 
-}
-?>
 <!DOCTYPE html>
 <html>
 

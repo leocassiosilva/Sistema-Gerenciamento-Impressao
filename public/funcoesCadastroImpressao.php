@@ -10,7 +10,7 @@ if($_GET['acao'] == 'curso'){
 	$query->execute();
 
 
-	while ($linha = $query->fetch(PDO::FETCH_ASSOC)) {
+	while ($linha = $query->fetchAll(PDO::FETCH_ASSOC)) {
 		$retorno[] = array(
 			'id_curso'  => $linha['id_curso'],
 			'nome'      => $linha['nome'],

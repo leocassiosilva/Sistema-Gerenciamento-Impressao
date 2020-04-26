@@ -33,7 +33,6 @@ class loginDAO
     if(!empty($resultado)){
       $_SESSION["nome"] = $resultado["nome"];
       $_SESSION["email"] = $resultado["email"];
-      $_SESSION['tipo'] = $resultado["id_tipo"];
       $_SESSION['id_usuario'] = $resultado["id_usuario"];
       $_SESSION['logado'] = 'sim';
       return $resultado;
