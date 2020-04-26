@@ -1,6 +1,5 @@
 <?php
 
-//include("Conexao.php");
 require_once("../model/Usuario.php");
 require_once("../dao/usuarioDAO.php");
 

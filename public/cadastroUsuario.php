@@ -22,7 +22,7 @@
                 <h3 class="mb-0">Cadastro</h3>
               </div>
               <div class="card-body">
-                <form method="POST">
+                <form method="POST" action="../control/ControleUsuario.php">
                   <div class="form-row">
                     <div class="form-group col-md-12">
                      <label for="inputNome">Nome</label>
